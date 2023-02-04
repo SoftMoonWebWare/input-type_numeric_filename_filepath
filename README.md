@@ -5,8 +5,8 @@ Keyboard/input filters to:
 
 &lt;input type='numeric' min='-5' max='300' allow-plus-sign units='%, px, em, rem'&gt;
 
-&lt'input type='numeric' base='16'&gt;
+&lt;input type='numeric' base='16'&gt;
 
 &nbsp; •make an input to accept only filename (no directory separators) or filepath characters; but no formatting is enforced.
 
-&lt'input type='filename' &gt;
+&lt;input type='filename'&gt;
