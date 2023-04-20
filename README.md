@@ -18,6 +18,11 @@ The min &amp; max attributes accept multiple comma-separated-values, with each v
 
 &lt;input type='numeric' min='-5' max='300' step='1.5' allow-plus-sign units='%, px, em, rem' auto-append-unit&gt;
 
+If the value of the input is out of range (according to min/max above), an "out_of_range" event is fired on the input and bubbles.  
+The Event is an instanceof OutOfRangeEvent (which is an extention of UIEvent), and has the properties .min &amp; .max which are
+the min/max values with units matching the input value unit.
+The Input"s value will be set to the correct min/max value, unless your event-handler uses event.preventDefault() on the OutOfRangeEvent
+
 Special case: min='-∞' &amp; max='∞'
 <br>
 While simply leaving min & max blank ALSO allows "infinite" values (limited only by the computer), the user may want to actually signify the value "infinity".  They can do that by typing the ~ key when the input-field is blank, and the ∞ symbol will appear instead, when min or max matches ∞.  You can not use ∞ with a unit, nor can you include it in a comma-separated-list of min/max values.
