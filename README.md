@@ -18,6 +18,9 @@ The min &amp; max attributes accept multiple comma-separated-values, with each v
 
 &lt;input type='numeric' min='-5' max='300' step='1.5' allow-plus-sign units='%, px, em, rem' auto-append-unit&gt;
 
+Special case: min='-∞' &amp; max='∞'
+While simply leaving min & max blank allows "infinite" values (limited only by the computer), the user may want to actually signify the value "infinity".  They can do that by typing the ~ key when the input-field is blank, and the ∞ symbol will appear instead, when min or max matches ∞.  You can not use ∞ with a symbol, nor can you include it in a comma-separated-list of min/max values.
+
 &lt;input type='numeric' base='16'&gt;
 
 &nbsp; •make an input to accept only filename (no directory separators) or filepath characters; but no formatting is enforced.
