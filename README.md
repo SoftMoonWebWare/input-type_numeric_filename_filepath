@@ -27,3 +27,7 @@ While simply leaving min & max blank ALSO allows "infinite" values (limited only
 &nbsp; •make an input to accept only filename (no directory separators) or filepath characters; but no formatting is enforced.
 
 &lt;input type='filename'&gt;
+
+&lt;input type='filename'&gt;
+
+Note these are simply textual inputs for users to create filenames, etc.  They do not load any files.
