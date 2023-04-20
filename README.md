@@ -20,7 +20,7 @@ The min &amp; max attributes accept multiple comma-separated-values, with each v
 
 Special case: min='-∞' &amp; max='∞'
 <br>
-While simply leaving min & max blank ALSO allows "infinite" values (limited only by the computer), the user may want to actually signify the value "infinity".  They can do that by typing the ~ key when the input-field is blank, and the ∞ symbol will appear instead, when min or max matches ∞.  You can not use ∞ with a symbol, nor can you include it in a comma-separated-list of min/max values.
+While simply leaving min & max blank ALSO allows "infinite" values (limited only by the computer), the user may want to actually signify the value "infinity".  They can do that by typing the ~ key when the input-field is blank, and the ∞ symbol will appear instead, when min or max matches ∞.  You can not use ∞ with a unit, nor can you include it in a comma-separated-list of min/max values.
 
 &lt;input type='numeric' base='16'&gt;
 
