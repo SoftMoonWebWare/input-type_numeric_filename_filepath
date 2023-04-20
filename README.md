@@ -28,6 +28,6 @@ While simply leaving min & max blank ALSO allows "infinite" values (limited only
 
 &lt;input type='filename'&gt;
 
-&lt;input type='filename'&gt;
+&lt;input type='filepath'&gt;
 
 Note these are simply textual inputs for users to create filenames, etc.  They do not load any files.
