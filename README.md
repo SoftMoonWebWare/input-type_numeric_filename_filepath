@@ -5,7 +5,7 @@ Keyboard/input filters to:
 
 Units may also be defined as a post-fix text for the numerical value, using the input attribute: units='unit1, unit2, unit3' where the comma separated list of units are the allowed values; the user needs to only press the first key of the unit.  If the Boolean attribute auto-append-unit is present, the first unit listed becomes the default unit which is appended if the end-user does not explicitly choose one.
 
-The min &amp; max attributes accept multiple comma-separated-values, with each value having its own unit, to support units attribute.  The complete rules are:
+The min &amp; max attributes accept multiple comma-separated-values, with each value having its own unit, to support the units attribute.  The complete rules are:
 
 /*     MIN / MAX   === VALUE RULES ===
  * if there is no value, there is no limit, as usual.
